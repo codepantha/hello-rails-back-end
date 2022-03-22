@@ -5,6 +5,6 @@ class V1::GreetingsController < ApplicationController
 
   def random
     @random_greeting = Message.find(Message.pluck(:id).sample)
-    render json: { message: @random_greeting }.to_json
+    render json: @random_greeting
   end
 end
