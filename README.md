@@ -1,24 +1,65 @@
-# README
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Hello-rails-back-end
 
-Things you may want to cover:
+> Simple rails api back end
 
-* Ruby version
+[link to the Reactjs front-end for this project](https://github.com/codepantherr/hello-react-front-end)
 
-* System dependencies
+## Built With
 
-* Configuration
+- Major languages: Ruby
+- Frameworks: ROR
 
-* Database creation
+## Getting Started
 
-* Database initialization
+To get a local copy up and running follow these simple example steps.
 
-* How to run the test suite
+### Prerequisites
 
-* Services (job queues, cache servers, search engines, etc.)
+You need to have followings installed in your local machine:
+- `Ruby`
+- `Postgresql`
+- `Rails`
 
-* Deployment instructions
+### Setup
 
-* ...
+To setup the Items Library project in your local, in the repo page: 
+- click on code (dropdown list) > Download as ZIP. 
+- or open terminal of path you want to install project and run this command:
+`git clone git@github.com:codepantherr/hello-rails-react.git`
+- `cd hello-rails-react/`
+- `bundle install`
+- `bin/rails db:create`
+- `bin/rails db:migrate`
+- `bin/rails`
+
+## Instruction on the usage
+- Run the following comands in your command line:
+- `rails s`
+- `open any chrome/firefox`
+- `type "localhost:3000"`
+- `enjoy the app`
+
+## Author
+
+👤 **Eze Promise**
+
+- GitHub: [@codepantherr](https://github.com/codepantherr)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/promise-eze/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/codepantherr/hello-rails-react/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
